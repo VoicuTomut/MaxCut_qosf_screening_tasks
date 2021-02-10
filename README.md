@@ -14,8 +14,8 @@ I saw these task as a good oportunity to recap all these algorithms and make a c
 
 
 - Maxcut_QAOA_01.ipynb
-       - Here I solved  MaxCut problem for weighted graphs using QAOA and Qiskit.
-        - Observation
+    * Here I solved  MaxCut problem for weighted graphs using QAOA and Qiskit.
+    * Observation
         
 - Maxcut_QAOA_02.ipynb
     * Here I solved  MaxCut problem for weighted graphs using Pennylane.
