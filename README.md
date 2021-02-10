@@ -13,33 +13,21 @@ I saw these task as a good oportunity to recap all these algorithms and make a c
 ## This repo is organized as follow:
 
 
- <ul>
- 
-    <li>Maxcut_QAOA_01.ipynb<\li> 
-        <ul>
+- Maxcut_QAOA_01.ipynb
+       - Here I solved  MaxCut problem for weighted graphs using QAOA and Qiskit.
+        - Observation
         
-        <\li> Here I solved  MaxCut problem for weighted graphs using QAOA and Qiskit.<\li>
-        <\li>Observation<\li>
+- Maxcut_QAOA_02.ipynb
+        - Here I solved  MaxCut problem for weighted graphs using Pennylane.
+        - Observation 
         
-        <\ul>
-    <li>Maxcut_QAOA_02.ipynb<\li>
-        <ul>
-            <\li> Here I solved  MaxCut problem for weighted graphs using Pennylane.<\li>
-            <\li>Observation<\li>
-        <ul>
-    <li>Maxcut_VQE_03.ipynb<\li>
-        <ul>
-            <\li> Here I solved  MaxCut problem for weighted graphs using Quantum Gradient Descendent.<\li>
-            <\li> <\li>
-        <ul>
-    <li>Maxcut_FQE_04.ipynb<\li>
-        <ul>
-            <\li> Since my last implementation now IBM quanutm proccesors it allow you to do intermediat measurements <\li>
-            <\li>My firs atttempt can be found here: <\li>
-            <\li>Some notes: <\li>
-        <ul>
+- Maxcut_VQE_03.ipynb 
+        - Here I solved  MaxCut problem for weighted graphs using Quantum Gradient Descendent.
 
-  
- <\ul>
+- Maxcut_FQE_04.ipynb
+        - Since my last implementation now IBM quanutm proccesors it allow you to do intermediat measurements
+        - My firs atttempt can be found here:
+        - Some notes:
+
  
  
