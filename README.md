@@ -7,29 +7,24 @@
 
 
 ## Motivation 
-MaxCut problem is a problem thet is use as a proof of concept for  showcase  the  abiliy of quantum algorithms. In the past I approatch to solve these problem but using other thenic called Full Quantum Eigensolver (FQE).  I know that MaxCut problem can be solved using Grover and  Variation Quantum Eigansolver (VQE) is also a solution for these problem. 
-I saw these task as a good oportunity to recap all these algorithms and make a compartion between them.
+MaxCut problem is a problem thet is use as a proof of concept for  showcase  the  abiliy of quantum algorithms. In the past I approatch to solve these problem but using other thenic called Full Quantum Eigensolver (FQE)[https://github.com/VoicuTomut/QuantumExperiments/tree/master/MaxCut].  I know that MaxCut problem can be solved using Grover and  Variation Quantum Eigansolver (VQE) is also a solution for these problem. 
+I like how this problem is used as a toy for algorithms so now I will learn QAOA.
 
 ## This repo is organized as follow:
 
 
-- Maxcut_QAOA_01.ipynb
-    * Here I solved  MaxCut problem for weighted graphs using QAOA and Qiskit.
-    * Observation
+- QAOA_MaxCut_Qiskit
+    * Here I solved  MaxCut problem for weighted graphs implementing QAOA in Qiskit.
+    
         
-- Maxcut_QAOA_02.ipynb
-    * Here I solved  MaxCut problem for weighted graphs using Pennylane.
-    * Observation 
-        
-- Maxcut_VQE_03.ipynb 
-    * Here I solved  MaxCut problem for weighted graphs using Quantum Gradient Descendent.
+- QAOA_MaxCut_Pennylane_Adagard
+    * I adapted the Pennylane tutorial to solve MaxCut problem for weighted graphs.
+   
+   
+- QAOA_MaxCut_Pennylane_Adam
+    * I adapted the Pennylane tutorial to solve MaxCut problem for weighted graphs using Pennylane and use ADAM as optimizer. 
 
-- Maxcut_FQE_04.ipynb
-    * Since my last implementation now IBM quanutm proccesors it allow you to do intermediat measurements
-    * My firs atttempt can be found here:
-    * Some notes:
+- tootls 
+    * Useful functions in calculating the expected value of an observable
 
-- Maxcut_Grover_05.ipynb 
-    * Here I solved  MaxCut problem for weighted graphs using Quantum Gradient Descendent.
 
-- Requirements
